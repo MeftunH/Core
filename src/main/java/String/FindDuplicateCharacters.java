@@ -1,6 +1,6 @@
 package String;
 
-public class FindDublicateCharacters {
+public class FindDuplicateCharacters {
     public static void main(String[] args) {
         String str = "Programming";
         int count;
