@@ -9,4 +9,8 @@ public class Team {
         this.name = name;
         this.age = age;
     }
+
+    public static Team team(String newPlayer) {
+        return new Team(newPlayer, 22);
+    }
 }
