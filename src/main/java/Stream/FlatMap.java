@@ -13,6 +13,14 @@ public class FlatMap
 
     //get Nested List elements => stream()
     //add to list each element => flatMap
+    public static List<String> transformStream(List<List<String>> collection)
+    {
+        return collection.stream()
+                .flatMap(Collection::stream)   //Stream<Stream<String>> => Stream<String>
+                .collect(Collectors.toList())
+                ;
+    }
+
     public static List<String> transform(List<List<String>> collection)
     {
         List<String> newCollection = new ArrayList<>();
@@ -25,11 +33,5 @@ public class FlatMap
         return newCollection;
     }
 
-    public static List<String> transformStream(List<List<String>> collection)
-    {
-        return collection.stream()
-                .flatMap(Collection::stream)   //Stream<Stream<String>> => Stream<String>
-                .collect(Collectors.toList())
-                ;
-    }
+
 }
