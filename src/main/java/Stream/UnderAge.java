@@ -3,6 +3,7 @@ package Stream;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class UnderAge {
     public static Set<String> getKidNames(List<Person> people) {
@@ -14,4 +15,12 @@ public class UnderAge {
         }
         return kids;
     }
+
+    public static Set<String> getKidNamesByStream(List<Person> people) {
+        return people.stream()
+                .filter(person -> person.getAge()>18) //Stream<Person>
+                .map(Person::getName) //Stream<String> = > "jack","john,jack"
+                .collect(Collectors.toSet());  //"jack,john"
+    }
+
 }
