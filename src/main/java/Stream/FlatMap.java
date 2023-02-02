@@ -12,7 +12,7 @@ public class FlatMap
     }
 
     //get Nested List elements => stream()
-    //add to list each element => flatMap
+    //add to list each element => flatMap()
     public static List<String> transformStream(List<List<String>> collection)
     {
         return collection.stream()
