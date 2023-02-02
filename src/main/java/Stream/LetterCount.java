@@ -13,6 +13,7 @@ public class LetterCount {
     //SUM OF LETTERS => sum()
     public static int getTotalNumberOfLettersOfNamesLongerThanFive(String... names) {
         return Arrays.stream(names)
+                .parallel()
                 .filter(name -> name.length() > 5) //Stream<String>
                 .mapToInt(String::length) //Stream>Integer>
                 .sum()
