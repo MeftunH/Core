@@ -17,9 +17,9 @@ public class Joining {
     }
 
     public static String namesToStringByStream(List<Person> people) {
-        return "Names: "+people
+        return new StringBuilder("Names: ").append(people
                 .stream()
                 .map(Person::getName)
-                .reduce((i, sum)->i+" ,"+sum).orElse("")+".";
+                .reduce((i, sum)->i+" ,"+sum).orElse("")).append(".").toString();
     }
 }
