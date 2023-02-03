@@ -15,4 +15,11 @@ public class Joining {
         sb.append(".");
         return sb.toString();
     }
+
+    public static String namesToStringByStream(List<Person> people) {
+        return "Names: "+people
+                .stream()
+                .map(Person::getName)
+                .reduce((i, sum)->i+" ,"+sum).orElse("")+".";
+    }
 }
