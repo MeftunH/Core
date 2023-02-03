@@ -17,7 +17,11 @@ public class PhoneBookCrawler {
     }
 
     public String findPhoneNumberByNameAndPrintPhoneBookIfNothingFound(String name){
-        return null;
+        StringBuilder result = new StringBuilder();
+        phoneBook.findPhoneNumberByName(name)
+                .ifPresentOrElse(result::append ,
+                ()->System.out.println(phoneBook.getPhoneBookEntries()));
+        return result.toString();
     }
 
     public String findPhoneNumberByNameOrNameByPhoneNumber(String name, String phoneNumber){
