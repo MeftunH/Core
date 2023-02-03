@@ -1,5 +1,7 @@
 package Optional;
 
+import java.util.Optional;
+
 public class PhoneBookCrawler {
 
     private PhoneBook phoneBook;
@@ -25,6 +27,17 @@ public class PhoneBookCrawler {
     }
 
     public String findPhoneNumberByNameOrNameByPhoneNumber(String name, String phoneNumber){
+      String result = "";
+        Optional<String> phoneNumberOptional = phoneBook.findPhoneNumberByName(name);
+        Optional<String> nameOptional = phoneBook.findNameByPhoneNumber(phoneNumber);
+
+        if(phoneNumberOptional.isPresent())
+        {
+            return phoneNumberOptional.get();
+        }
+        else if (nameOptional.isPresent()) {
+            return nameOptional.get();
+        }
         return null;
     }
 
