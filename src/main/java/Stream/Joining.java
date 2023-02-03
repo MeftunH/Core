@@ -1,6 +1,7 @@
 package Stream;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Joining {
     public static String namesToString(List<Person> people) {
@@ -17,9 +18,18 @@ public class Joining {
     }
 
     public static String namesToStringByStream(List<Person> people) {
-        return new StringBuilder("Names: ").append(people
+        return new StringBuilder("Names: ").append(
+                people
                 .stream()
                 .map(Person::getName)
                 .reduce((i, sum)->i+" ,"+sum).orElse("")).append(".").toString();
+    }
+
+    public static String namesToStringByStreamByJoiningFunction(List<Person> people) {
+        return new StringBuilder("Names: ").append(
+                people
+                .stream()
+                .map(Person::getName)
+                .collect(Collectors.joining(", "))).append(".").toString();
     }
 }
