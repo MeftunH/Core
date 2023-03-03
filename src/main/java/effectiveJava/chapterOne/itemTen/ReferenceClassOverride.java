@@ -1,6 +1,9 @@
 package effectiveJava.chapterOne.itemTen;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ReferenceClassOverride {
     private final int a;
     private final int b;
@@ -18,6 +21,10 @@ public class ReferenceClassOverride {
         } else {
             System.out.println("not equals"); //true
         }
+        //this get us null.
+        Map<ReferenceClassOverride,String> m=new HashMap<>();
+        m.put(new ReferenceClassOverride(1,2),"FistElement");
+        System.out.println(m.get(new ReferenceClassOverride(1,2)));
     }
 
     @Override
@@ -33,5 +40,11 @@ public class ReferenceClassOverride {
                 &&b==referenceClassOverride.b;
     }
 
-
+    @Override
+    public int hashCode() {
+        int result =Integer.hashCode(b);
+        //random const value * result
+        result = 31*result+Integer.hashCode(a);
+        return result;
+    }
 }

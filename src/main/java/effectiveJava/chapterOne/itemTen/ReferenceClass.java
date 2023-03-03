@@ -1,6 +1,8 @@
 package effectiveJava.chapterOne.itemTen;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
+import java.util.Map;
+
 public class ReferenceClass {
     private int a,b;
     public ReferenceClass(int a, int b) {
@@ -20,6 +22,8 @@ public class ReferenceClass {
         ReferenceClass r2=new ReferenceClass(1,2);
         System.out.println(r1==r2);//false
         System.out.println(r1.equals(r2)); //false
-
+        //different from each others
+        System.out.println(r1.hashCode());
+        System.out.println(r2.hashCode());
     }
 }
