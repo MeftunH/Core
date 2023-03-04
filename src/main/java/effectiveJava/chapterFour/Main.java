@@ -6,5 +6,6 @@ public class Main {
         AccessModifier am=new AccessModifier();
         //we can't access private method from another class
         //        am.message();
+        System.out.println(am.publicMessage());
     }
 }
