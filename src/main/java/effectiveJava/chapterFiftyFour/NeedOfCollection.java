@@ -24,6 +24,10 @@ public class NeedOfCollection {
         students[1]=new Student();
         //compile time error
 //        students[2] = new Book();
+
+        Object[] objects=new Object[10];
+        objects[0]=new Student();
+        objects[1]=new Book();
     }
 }
 
