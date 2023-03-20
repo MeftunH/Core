@@ -3,8 +3,14 @@ package examples.thread;
 
 public class Application {
     public static void main(String[] args) {
-        Runner runner = new Runner();
+//        Runner runner = new Runner();
+//
+//        runner.start();
+        //Multithreading
+        Runner runner1=new Runner();
+        Runner runner2=new Runner();
 
-        runner.start();
+        runner1.start();
+        runner2.start();
     }
 }
