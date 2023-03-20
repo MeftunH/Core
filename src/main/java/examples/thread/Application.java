@@ -12,5 +12,11 @@ public class Application {
 
         runner1.start();
         runner2.start();
+
+        Thread thread1 = new Thread(new RunnableRunner());
+        Thread thread2 = new Thread(new RunnableRunner());
+
+        thread1.start();
+        thread2.start();
     }
 }
