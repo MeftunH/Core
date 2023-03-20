@@ -2,7 +2,7 @@ package examples.thread;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class Application {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //        Runner runner = new Runner();
 //
 //        runner.start();
@@ -18,5 +18,13 @@ public class Application {
 
         thread1.start();
         thread2.start();
+
+        Processor processor = new Processor();
+
+        processor.start();
+
+        Thread.sleep(10);
+
+        processor.shutdown();
     }
 }
