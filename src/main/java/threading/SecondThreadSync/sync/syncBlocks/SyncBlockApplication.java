@@ -1,4 +1,4 @@
-package main.java.threading.sync.syncBlocks;
+package main.java.threading.SecondThreadSync.sync.syncBlocks;
 
 import java.util.ArrayList;
 import java.util.List;

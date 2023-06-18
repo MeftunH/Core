@@ -1,5 +1,8 @@
-package main.java.threading.createOptions;
-
+package main.java.threading.FirstcreateOptions.createOptions;
+/*
+Thread olusturmanin ilk yolu thread sinifini extend eden bir sinif olusturup threadin yapamasini istedigimiz isi
+bu metodun icine kodlamaktir
+ */
 public class ThreadExtendOption extends Thread {
     @Override
     public void run() {

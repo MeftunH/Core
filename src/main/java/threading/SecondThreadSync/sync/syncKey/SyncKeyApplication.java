@@ -1,12 +1,12 @@
-package main.java.threading.sync.syncKey;
+package main.java.threading.SecondThreadSync.sync.syncKey;
 
 public class SyncKeyApplication {
     private int count = 0;
 
 
-    public void increment() {
-        count++;
-    }
+//    public void increment() {
+//        count++;
+//    }
 
 public synchronized void increment() {
     count++;
