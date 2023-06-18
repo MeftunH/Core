@@ -1,4 +1,4 @@
-package main.java.threading.SecondThreadSync.sync.syncKey;
+package main.java.threading.ThirdSyncKey.syncKey;
 
 public class SyncKeyApplication {
     private int count = 0;
