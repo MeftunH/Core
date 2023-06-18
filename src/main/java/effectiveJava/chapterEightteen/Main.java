@@ -1,8 +1,8 @@
-package effectiveJava.chapterEightteen;
+package main.java.effectiveJava.chapterEightteen;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
-import effectiveJava.chapterEightteen.composition.Book;
-import effectiveJava.chapterEightteen.composition.Library;
+import main.java.effectiveJava.chapterEightteen.composition.Book;
+import main.java.effectiveJava.chapterEightteen.composition.Library;
 
 import java.util.List;
 

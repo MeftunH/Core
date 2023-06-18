@@ -1,4 +1,4 @@
-package effectiveJava.chapterFiftyFour;
+package main.java.effectiveJava.chapterFiftyFour;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class NeedOfCollection {

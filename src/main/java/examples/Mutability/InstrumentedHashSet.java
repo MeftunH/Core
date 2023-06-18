@@ -1,4 +1,4 @@
-package examples.Mutability;
+package main.java.examples.Mutability;
 
 import java.util.Collection;
 import java.util.HashSet;

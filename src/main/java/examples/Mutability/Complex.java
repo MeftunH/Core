@@ -1,4 +1,4 @@
-package examples.Mutability;
+package main.java.examples.Mutability;
 
 // Immutable complex number class
 public final class Complex {

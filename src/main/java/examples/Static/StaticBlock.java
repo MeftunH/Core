@@ -1,4 +1,4 @@
-package examples.Static;
+package main.java.examples.Static;
 
 public class StaticBlock {
     // Case 1: examples.Static variable

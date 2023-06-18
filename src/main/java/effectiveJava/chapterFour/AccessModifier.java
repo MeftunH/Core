@@ -1,4 +1,4 @@
-package effectiveJava.chapterFour;
+package main.java.effectiveJava.chapterFour;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class AccessModifier {

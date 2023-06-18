@@ -1,4 +1,4 @@
-package examples.StaticFactory;
+package main.java.examples.StaticFactory;
 
 public class Testing {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package examples.Lambda;
+package main.java.examples.Lambda;
 
 interface ISayable{
     public String say();

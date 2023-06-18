@@ -1,4 +1,4 @@
-package examples.Array;
+package main.java.examples.Array;
 
 public class ReturnArray {
     static int[] m1() {

@@ -1,4 +1,4 @@
-package examples.Stream;
+package main.java.examples.Stream;
 
 import java.util.ArrayList;
 import java.util.HashMap;

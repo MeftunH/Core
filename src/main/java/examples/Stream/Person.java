@@ -1,4 +1,4 @@
-package examples.Stream;
+package main.java.examples.Stream;
 
 public class Person implements Comparable<Person>{
     private String name;

@@ -1,4 +1,4 @@
-package examples.Concurrency;
+package main.java.examples.Concurrency;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 import java.util.concurrent.Executors;

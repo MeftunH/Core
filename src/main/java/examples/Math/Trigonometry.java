@@ -1,4 +1,4 @@
-package examples.Math;
+package main.java.examples.Math;
 
 public class Trigonometry {
     public static void main(String[] args) {

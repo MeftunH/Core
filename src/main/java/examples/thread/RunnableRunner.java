@@ -1,4 +1,4 @@
-package examples.thread;
+package main.java.examples.thread;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 class RunnableRunner implements Runnable {

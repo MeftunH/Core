@@ -1,4 +1,4 @@
-package examples.Lambda;
+package main.java.examples.Lambda;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public interface IGeneric<T> {

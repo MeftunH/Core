@@ -1,4 +1,4 @@
-package examples.Stream;
+package main.java.examples.Stream;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 

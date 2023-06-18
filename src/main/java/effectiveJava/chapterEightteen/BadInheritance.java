@@ -1,4 +1,4 @@
-package effectiveJava.chapterEightteen;
+package main.java.effectiveJava.chapterEightteen;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 import java.util.HashSet;

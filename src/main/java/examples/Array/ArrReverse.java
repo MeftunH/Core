@@ -1,4 +1,4 @@
-package examples.Array;
+package main.java.examples.Array;
 
 public class ArrReverse {
     public static void main(String[] args) {

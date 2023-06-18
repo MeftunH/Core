@@ -1,4 +1,4 @@
-package examples.String;
+package main.java.examples.String;
 
 public class PrintFibonacci {
 

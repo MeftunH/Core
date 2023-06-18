@@ -1,4 +1,4 @@
-package effectiveJava.chapterEightteen.composition;
+package main.java.effectiveJava.chapterEightteen.composition;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class Book {

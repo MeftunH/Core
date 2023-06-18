@@ -1,4 +1,4 @@
-package examples.Array;
+package main.java.examples.Array;
 
 public class AnonymousArray {
     static void printArray(int[] arr) {

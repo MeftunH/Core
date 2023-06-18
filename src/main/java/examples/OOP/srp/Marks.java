@@ -1,4 +1,4 @@
-package examples.OOP.srp;
+package main.java.examples.OOP.srp;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class Marks {

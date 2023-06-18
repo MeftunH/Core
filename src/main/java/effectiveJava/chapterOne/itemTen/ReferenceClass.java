@@ -1,4 +1,4 @@
-package effectiveJava.chapterOne.itemTen;
+package main.java.effectiveJava.chapterOne.itemTen;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 import java.util.Map;

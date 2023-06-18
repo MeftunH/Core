@@ -1,4 +1,4 @@
-package examples.Static;
+package main.java.examples.Static;
 
 class Student{
     int rollno;

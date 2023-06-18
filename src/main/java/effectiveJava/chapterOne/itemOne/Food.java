@@ -1,7 +1,7 @@
-package effectiveJava.chapterOne.itemOne;
+package main.java.effectiveJava.chapterOne.itemOne;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
-import examples.StaticFactory.IceCream;
+import main.java.examples.StaticFactory.IceCream;
 
 public class Food {
     String name;

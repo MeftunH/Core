@@ -1,4 +1,4 @@
-package examples.Static;
+package main.java.examples.Static;
 
 public class Counter {
     static int count=0;//will get memory only once and retain its value

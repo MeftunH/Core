@@ -1,4 +1,4 @@
-package examples.Recursion.factorial;
+package main.java.examples.Recursion.factorial;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class Factorial {

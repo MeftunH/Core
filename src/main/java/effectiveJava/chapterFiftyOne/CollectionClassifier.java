@@ -1,4 +1,4 @@
-package effectiveJava.chapterFiftyOne;
+package main.java.effectiveJava.chapterFiftyOne;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 import java.math.BigInteger;

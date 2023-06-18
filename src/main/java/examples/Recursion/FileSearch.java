@@ -1,4 +1,4 @@
-package examples.Recursion;
+package main.java.examples.Recursion;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 import java.io.File;

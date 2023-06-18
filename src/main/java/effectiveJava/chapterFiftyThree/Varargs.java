@@ -1,4 +1,4 @@
-package effectiveJava.chapterFiftyThree;
+package main.java.effectiveJava.chapterFiftyThree;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class Varargs {

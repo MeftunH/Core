@@ -1,4 +1,4 @@
-package examples.Generics;
+package main.java.examples.Generics;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public interface GenericCollectionInterface<T> {

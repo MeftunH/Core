@@ -1,4 +1,4 @@
-package effectiveJava.chapterOne.itemThirteen;
+package main.java.effectiveJava.chapterOne.itemThirteen;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class Table implements Cloneable {

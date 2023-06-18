@@ -1,4 +1,4 @@
-package examples.Lambda;
+package main.java.examples.Lambda;
 
 public class Sayable {
     public static void main(String[] args) {

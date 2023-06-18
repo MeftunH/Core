@@ -1,4 +1,4 @@
-package examples.Boxing;
+package main.java.examples.Boxing;
 
 public class AutoboxingWideningBeatsVarArgs {
     static void m(int i, int i2){System.out.println("int int");}

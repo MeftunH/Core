@@ -1,4 +1,4 @@
-package examples.Array;
+package main.java.examples.Array;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class ArrayChallenge {

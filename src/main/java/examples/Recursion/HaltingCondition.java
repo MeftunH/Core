@@ -1,4 +1,4 @@
-package examples.Recursion;
+package main.java.examples.Recursion;
 
 public class HaltingCondition {
 

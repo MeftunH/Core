@@ -1,4 +1,4 @@
-package examples.String;
+package main.java.examples.String;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class StringComparison {

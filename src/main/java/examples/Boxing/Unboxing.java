@@ -1,4 +1,4 @@
-package examples.Boxing;
+package main.java.examples.Boxing;
 
 public class Unboxing {
     public static void main(String[] args) {

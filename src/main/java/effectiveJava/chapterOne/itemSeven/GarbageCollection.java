@@ -1,4 +1,4 @@
-package effectiveJava.chapterOne.itemSeven;
+package main.java.effectiveJava.chapterOne.itemSeven;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class GarbageCollection {

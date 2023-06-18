@@ -1,4 +1,4 @@
-package examples.Static;
+package main.java.examples.Static;
 
 public class StaticNestedClass {
     static int data=30;

@@ -1,4 +1,4 @@
-package effectiveJava.chapterFour.encapsulation;
+package main.java.effectiveJava.chapterFour.encapsulation;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class Data {

@@ -1,4 +1,4 @@
-package examples.Static;
+package main.java.examples.Static;
 
 class Calculate{
     static int cube(int x){

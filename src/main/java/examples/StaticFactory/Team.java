@@ -1,4 +1,4 @@
-package examples.StaticFactory;
+package main.java.examples.StaticFactory;
 
 public class Team {
     private String name;

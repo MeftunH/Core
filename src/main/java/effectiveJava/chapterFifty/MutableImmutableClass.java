@@ -1,4 +1,4 @@
-package effectiveJava.chapterFifty;
+package main.java.effectiveJava.chapterFifty;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 import java.util.Date;

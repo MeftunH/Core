@@ -1,4 +1,4 @@
-package effectiveJava.chapterOne.itemTwo;
+package main.java.effectiveJava.chapterOne.itemTwo;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 public class StarbucksBuilder {

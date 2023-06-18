@@ -1,4 +1,4 @@
-package examples.Math;
+package main.java.examples.Math;
 /* @author - Maftun Hashimli (maftunhashimli@gmail.com)) */
 
 import java.util.ArrayList;

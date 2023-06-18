@@ -1,4 +1,4 @@
-package examples.Boxing;
+package main.java.examples.Boxing;
 
 public class BoxingBeatsVariable {
     static void m(Integer i){System.out.println("Integer");}

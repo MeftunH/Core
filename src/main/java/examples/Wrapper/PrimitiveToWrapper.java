@@ -1,4 +1,4 @@
-package examples.Wrapper;
+package main.java.examples.Wrapper;
 
 public class PrimitiveToWrapper {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package examples.String;
+package main.java.examples.String;
 
 public class FindAllPermutations {
     public static void main(String[] args) {
