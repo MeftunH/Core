@@ -1,16 +1,34 @@
 package main.java.examples.Static;
 
 public class Decomposition {
-    long start = System.currentTimeMillis();
-11: List.of(1,2,3,4,5)
-        12:
-        .stream()
-13:
-        14:
-        15:
-        .map(w -­> doWork(w))
-            .forEach(s -­> System.out.print(s + " "));
-16: System.out.println();
-17: var timeTaken = (System.currentTimeMillis()-­start)/1000;
-18: System.out.println("Time: "+timeTaken+" seconds");
+    public static void main(String[] args) {
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 5; i++) {
+                System.out.println("Hi");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                }
+            }
+        });
+
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 5; i++) {
+                System.out.println("Hello");
+                try {
+                    Thread.sleep(1000);
+                } catch (Exception e) {
+                }
+            }
+        });
+
+        t1.start();
+        try {
+            Thread.sleep(10);
+        } catch (Exception e) {
+        }
+        t2.start();
+
+        System.out.println(t1.isAlive());
+    }
 }
